@@ -5,32 +5,10 @@
     <link>https://jena.js.org/</link>
     <description>Recent content in Start on JavaScript in Jena</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 04 Aug 2018 16:36:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 02 Aug 2018 01:00:00 +0100</lastBuildDate>
     
 	<atom:link href="https://jena.js.org/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Kontakt</title>
-      <link>https://jena.js.org/kontakt/</link>
-      <pubDate>Sat, 04 Aug 2018 16:36:00 +0100</pubDate>
-      
-      <guid>https://jena.js.org/kontakt/</guid>
-      <description>Am besten erreichst du uns über unseren Chat auf matrix.org:
-https://riot.im/app/#/room/#JSinJena:matrix.org
-Wenn es umbedingt eine E-Mail sein soll, bitte folgende verwenden:
-jsinjena@datenknoten.me</description>
-    </item>
-    
-    <item>
-      <title>Unterstütztung</title>
-      <link>https://jena.js.org/unterstuetzung/</link>
-      <pubDate>Sat, 04 Aug 2018 16:42:00 +0100</pubDate>
-      
-      <guid>https://jena.js.org/unterstuetzung/</guid>
-      <description>Du kannst uns auf verschiedene Weise unterstützen:
- An den Veranstaltungen teilnehmen 😉 Die Veranstalltungen deinen Freunden und Bekannten weiterempfehlen. Dich ins das Projekt mit einbringen. Was hier aktuell zu tun ist, erfrage am besten im Chat. Dich an den Ausgaben beteiligen.  </description>
-    </item>
     
     <item>
       <title>Treffen am 2018-08-16</title>
@@ -41,6 +19,28 @@ jsinjena@datenknoten.me</description>
       <description>Unser erstes Treffen wird am 2018-08-16 um 18:00 Uhr in Raum 05.00.04 (Haus 5, Erdgeschoss, Raum 04) in der EAH Jena stattfinden.
 Unsere Veranstaltung läuft so ab, dass es am Anfang eine kleine Vorstellungsrunde gibt. Anschließend kann jeder seine Projekte im „Show and Tell“-Format vorstellen. Danach können Teilnehmende Probleme erläutern und Lösungen erhalten. In der offenen Runde verläuft sich der Abend bei geselligem Zusammensein.
 Achtung: Nach 19 Uhr ist die EAH abgeschlossen.</description>
+    </item>
+    
+    <item>
+      <title>Kontakt</title>
+      <link>https://jena.js.org/kontakt/</link>
+      <pubDate>Sat, 04 Aug 2018 16:36:00 +0100</pubDate>
+      
+      <guid>https://jena.js.org/kontakt/</guid>
+      <description>Am besten erreichst du uns über unseren Chat auf matrix.org:
+https://riot.im/app/#/room/#JSinJena:matrix.org
+Wenn es umbedingt eine E-Mail sein soll, bitte folgende verwenden:
+kontakt@javascript-in-jena.de</description>
+    </item>
+    
+    <item>
+      <title>Unterstütztung</title>
+      <link>https://jena.js.org/unterstuetzung/</link>
+      <pubDate>Sat, 04 Aug 2018 16:42:00 +0100</pubDate>
+      
+      <guid>https://jena.js.org/unterstuetzung/</guid>
+      <description>Du kannst uns auf verschiedene Weise unterstützen:
+ An den Veranstaltungen teilnehmen 😉 Die Veranstalltungen deinen Freunden und Bekannten weiterempfehlen. Dich ins das Projekt mit einbringen. Was hier aktuell zu tun ist, erfrage am besten im Chat. Dich an den Ausgaben beteiligen.  </description>
     </item>
     
   </channel>
