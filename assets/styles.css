@@ -1,0 +1,156 @@
+@import url("fonts.css");
+:root {
+  --default-margin: 1rem;
+  --default-border-width: 0.2rem;
+  --color-highlight: #f7df1e;
+  --color-text: black; }
+
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+body {
+  font-size: 18px;
+  margin: var(--default-margin);
+  font-family: 'Titillium Web', sans-serif; }
+
+h1, h2:first-of-type {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Yanone Kaffeesatz', sans-serif; }
+
+hr {
+  color: var(--color-highlight);
+  background-color: var(--color-highlight);
+  border: 0;
+  height: 0.2rem; }
+
+p {
+  text-align: justify;
+  hyphens: auto; }
+
+a {
+  color: var(--color-text);
+  text-decoration-color: var(--color-highlight);
+  text-decoration-skip: ink; }
+
+.social {
+  list-style: none;
+  padding-left: calc(var(--default-margin) / 2);
+  padding-right: calc(var(--default-margin) / 2); }
+  .social a {
+    padding-left: 30px;
+    background-size: 24px;
+    background-repeat: no-repeat; }
+  .social a[href^="https://github.com"] {
+    background-image: url(/assets/github.svg); }
+  .social a[href^="https://twitter.com"] {
+    background-image: url(/assets/twitter.svg); }
+  .social a[href^="https://riot.im"] {
+    background-position-y: center;
+    background-image: url(/assets/matrix-logo.svg); }
+  .social a[href^="mailto:"] {
+    background-image: url(/assets/envelope-regular.svg); }
+
+.main.container {
+  display: block;
+  position: relative; }
+  .main.container .navigation {
+    width: 15rem;
+    flex: 0 0 auto;
+    margin-right: calc(var(--default-margin) / 2); }
+    .main.container .navigation h1 {
+      text-align: center; }
+      .main.container .navigation h1 .logo {
+        max-width: 100%;
+        display: block; }
+    .main.container .navigation p {
+      padding-left: calc(var(--default-margin) / 2);
+      padding-right: calc(var(--default-margin) / 2); }
+    .main.container .navigation nav {
+      padding-left: calc(var(--default-margin) / 2);
+      padding-right: calc(var(--default-margin) / 2);
+      list-style: none; }
+  .main.container .mobile-menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: flex-start; }
+    .main.container .mobile-menu .hamburger {
+      width: 32px;
+      flex: 0 0 auto;
+      color: var(--color-highlight); }
+    .main.container .mobile-menu .logo {
+      width: 32px;
+      flex: 0 0 auto; }
+    .main.container .mobile-menu h1 {
+      flex: 1 1 auto;
+      text-align: center; }
+    .main.container .mobile-menu hr {
+      flex: 1 1 auto;
+      width: 100%; }
+  .main.container .backdrop {
+    display: none; }
+
+#main-navigation:target {
+  left: 0; }
+
+#main-navigation:target ~ .backdrop {
+  position: fixed;
+  display: block;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 998;
+  background-color: rgba(255, 255, 255, 0.85);
+  cursor: default; }
+
+#main-navigation {
+  display: block;
+  margin-right: 0;
+  position: fixed;
+  background-color: white;
+  left: -15rem;
+  top: 0;
+  z-index: 1000;
+  height: 100vh;
+  position: fixed;
+  transition: all 1s ease; }
+  #main-navigation p {
+    display: none; }
+
+@media all and (min-width: 840px) {
+  .main.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: flex-start; }
+    .main.container .content {
+      padding-left: calc(var(--default-margin) / 2);
+      flex: 1 1 auto;
+      margin-left: 0; }
+      .main.container .content article {
+        width: 40vw; }
+    .main.container .mobile-menu {
+      display: none; }
+    .main.container #main-navigation {
+      padding-right: calc(var(--default-margin) / 2);
+      position: static;
+      display: block;
+      left: auto;
+      flex: 0 0 auto;
+      transition: none; }
+      .main.container #main-navigation p {
+        display: block; }
+  h1, h2:first-of-type {
+    margin-top: inherit; } }
